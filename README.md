@@ -1,4 +1,4 @@
-# nidhi-twitter-airflow-data-engineering-project
+# twitter-airflow-data-engineering-project
 This repo consists of all the code that pulls data from twitter, schedules script on airflow via EC2 and pushes data to s3 bucket. The code written, specifically pulls `elonmusk` tweets, creates a dataframe and finally pushes the csv to s3 bucket via airflow scheduling.
 My goal for this project was to learn and try airflow, understand how dags work, utilize AWS services.
 
