@@ -52,5 +52,5 @@ def run_twitter_etl():
 
     print(data)
     data = data[['id', 'created_at', 'text']]
-    data.to_csv("tweet_data.csv", index=False) # add your s3 destination as well inaddition to file name  
+    data.to_csv("tweet_data.csv", index=False) # add your s3 destination as well in addition to file name  
 
