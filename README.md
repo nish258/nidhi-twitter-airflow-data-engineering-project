@@ -1,7 +1,7 @@
 # nidhi-twitter-airflow-data-engineering-project
 This repo consists of all the code that pulls data from twitter, schedules script on airflow via EC2 and pushes data to s3 bucket. The code written, specifically pulls `elonmusk` tweets, creates a dataframe and finally pushes the csv to s3 bucket via airflow scheduling.
 
-## Steps Involved
+### Steps Involved
 
 * Create a Twitter Developer account
 * Extract the api keys or bearer token based on which twitter api are you using
@@ -17,10 +17,10 @@ This repo consists of all the code that pulls data from twitter, schedules scrip
 * Run the dag that was created on airflow and fix if there are any errors. 
 * Final result: you should be able to see the file with all the required data on s3 bucket
 
-## Architecture Diagram 
+### Architecture Diagram 
 ![Data Architecture](Twitter-Airflow-ETL-Data-Architecture.png)
 
-## Challenges
+### Challenges
 * Twitter API 
 * EC2 Instance free tier 
 * Security block while accessing the Airflow
