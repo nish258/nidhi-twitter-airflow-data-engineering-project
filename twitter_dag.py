@@ -21,7 +21,7 @@ default_args = {'owner': 'airflow',
 dag = DAG(
     'twitter_dag',
     default_args = default_args,
-    schedule_interval = timedelta(minutes=10), # Created a batch schedule so this runs every 10 mins
+    schedule_interval = timedelta(hour=24), # Created a batch schedule so this runs every 10 mins
     description='My First Twitter ETL Airflow Code'
     )
 
